@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/tic_menu"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+    <ImageView 
+        
+        android:id="@+id/TicTacToe"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tic_tac_toe_two"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0"
+        />
+    <LinearLayout 
+        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="130dp"
+
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+
+        >
+        <ImageView 
+            android:id="@+id/onePlayer"
+        android:layout_height="wrap_content"
+        android:layout_width="240dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/one_player_style"
+         android:clickable="true"   
+         android:onClick="click"
+
+        
+            />
+        <ImageView 
+            android:id="@+id/twoPlayer"
+        android:layout_height="wrap_content"
+        android:layout_width="240dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/two_player_style"
+         android:layout_marginTop="10dp"  
+         android:clickable="true" 
+         android:onClick="click" 
+
+            />
+        
+        <ImageView 
+            android:id="@+id/exit"
+        android:layout_height="wrap_content"
+        android:layout_width="240dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/exit_style"
+        android:layout_marginTop="10dp"
+        android:clickable="true" 
+        android:onClick="click"
+            
+            />
+
+
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

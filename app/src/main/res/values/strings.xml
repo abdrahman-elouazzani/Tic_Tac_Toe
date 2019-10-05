@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TicTacToe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner">ca-app-pub-6801991288885228/3246165593</string>
+    <string name="admob_intestitial">ca-app-pub-6801991288885228/4722898797</string>
+   
+
+</resources>
