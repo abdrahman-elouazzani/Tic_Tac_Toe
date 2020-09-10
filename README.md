@@ -1,4 +1,7 @@
 # Tic_Tac_Toe
+Play Tic Tac Toe against your friends or against computer and review statistic.
+
+## The Previews 
 
 ![d1](https://user-images.githubusercontent.com/40376977/66261951-1b133180-e7cf-11e9-8053-2e06caa812d8.png)
 ![d2](https://user-images.githubusercontent.com/40376977/66261952-1babc800-e7cf-11e9-93b6-618b41574708.png)
